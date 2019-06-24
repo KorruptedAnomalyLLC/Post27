@@ -10,6 +10,8 @@ import Foundation
 
 class PostController {
     
+    // static let shared = PostController()
+    
     let baseURL = URL(string: "http://devmtn-posts.firebaseio.com/posts")
     
     // Source of Truth
